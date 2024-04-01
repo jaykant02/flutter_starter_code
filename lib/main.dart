@@ -12,10 +12,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       // Write this debugBanner
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo', // Give Title for your Application
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+      title: 'Flutter Demo',
+      theme: ThemeData.dark(
       ),
       home: const MyHomePage(),
     );
@@ -23,7 +21,7 @@ class MyApp extends StatelessWidget {
 }
 
 
-// cut and paste this code to another dart file name home_screen
+// cut and paste this code to another dart file name home_screen and import flutter material.dart package
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
 
