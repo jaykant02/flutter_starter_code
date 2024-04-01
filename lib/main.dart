@@ -20,6 +20,8 @@ class MyApp extends StatelessWidget {
   }
 }
 
+
+// cut and paste this code to another dart file name home_screen
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
 
